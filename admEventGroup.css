@@ -1,0 +1,51 @@
+/* event listing */
+.event-status {
+  display: none;
+}
+.event-price {
+  display: none;
+}
+.event-start-date {
+  font-weight: 600 !important;
+}
+.event-name {
+  font-weight: normal !important;
+  font-size: 1.2rem !important;
+}
+/* content container */
+body, .content-container {
+  background-color: white;
+}
+.appbar-header {
+  padding: 0 !important;
+}
+/* hide seartch bar */ 
+.appbar-header .container {
+  display: none;
+}
+/* category selector */
+.appbar-header .keyword-container {
+  background: #ac1f2d url('https://www.bu.edu/questrom/wp-content/themes/r-questrom/images/maroon-bkgd.jpg');
+    color: #000;
+    text-align: right;
+    padding: 10px 25px 10px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Benton",Helvetica,sans-serif;
+    font-weight: 300;
+}
+.mat-chip.mat-standard-chip.mat-chip-selected.mat-primary {
+  background-color: white;
+  color: black;
+}
+.mat-chip.mat-standard-chip {
+  background-color: #ac1f2d;
+  color: white;
+}
+.mat-standard-chip::after,
+.mat-standard-chip:hover::after {
+  opacity: 0 !important;
+}
+
+
+
